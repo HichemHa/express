@@ -1,0 +1,17 @@
+//- layout.pug
+doctype html
+html
+    head
+        title My Site - #{title}
+        style
+            include ./css/style.css
+    body
+    
+    block nav
+        div
+            h1(style="color:red") mon site
+            ul  
+                li <a href='/' > home</a>
+                li <a href='/service' > service </a>
+                li <a href='/contact' > contact </a>      
+    block content
